@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
         if len(nums)==0:

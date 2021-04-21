@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 class Solution:
     def checkIfPangram(self, sentence: str) -> bool:
         if len(sentence)==0:

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import math
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
