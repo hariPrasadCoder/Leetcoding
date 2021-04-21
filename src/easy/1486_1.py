@@ -7,7 +7,7 @@ class Solution:
 
 ## Time Complexity:
 #
-# O(n**2)
+# O(2*n) ~= O(n)
 # - First we need to iterate through n elements to form our array/list
 # - Second we need to iterate through all those elements again for calculating the XOR (the reduce function)
 #
