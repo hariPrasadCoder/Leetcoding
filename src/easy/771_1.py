@@ -14,8 +14,8 @@ class Solution:
 #
 ## Time Complexity:
 # - O(j+s)
-# - iterate through all j elements in the string jewels to form the corresponding set
-# - iterate through all the elements of the stone string and check if it's in the jewel set
+# - iterating through all j elements in the string jewels to form the corresponding set takes O(j)
+# - Followed by iterating through all the elements of the stone string and check if it's in the jewel set takes O(s)
 #
 ## Space Complexity:
 # - O(1) in case you convert the jewel string into a set and store it in the same variable

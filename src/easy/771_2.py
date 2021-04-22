@@ -15,8 +15,8 @@ class Solution:
 #
 ## Time Complexity:
 # - O(s+j)
-# - iterate through all s elements in the string stones to form the corresponding Counter object
-# - iterate through all j the elements of the jewel string and check if it's count is present in the stones_counter object
+# - Iterating through all s elements in the string stones to form the corresponding Counter object takes O(s)
+# - Followed by iterating through all j the elements of the jewel string and check if it's count is present in the stones_counter object takes (j)
 #
 ## Space Complexity:
 # - O(1) in case you convert the stones string into a set and store it in the same variable
