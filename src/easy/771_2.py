@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from collections import Counter
 class Solution:
     def numJewelsInStones(self, jewels: str, stones: str) -> int:
